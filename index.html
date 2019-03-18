@@ -1,0 +1,50 @@
+<html>
+<head>
+<title>project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bd">
+<form action="All.html">
+<onsubmit="return validateform()">
+<script type="text/javascript">
+function validateform()
+{
+var x=document.forms["myform"]["uname"].value;
+if(x==""){
+alert(" Enter text only");
+return false;
+}
+
+
+</script>
+
+
+<center>
+<div class="new">
+</div>
+<div class="p1">
+<h1> AIRLINES WORLD</H1>
+<form name="myform" action="all.html">
+</div>  
+
+  <div class="container">
+    <label for="uname"><b>Username:&nbsp&nbsp</b></label>
+    <input type="text" placeholder="Enter Username" name="uname"  required>
+	
+	<br><br>
+
+    <label for="psw"><b>Password:&nbsp&nbsp</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required><br><br>
+    <input type="submit" value="submit">
+	</form>
+    </div>
+    
+  
+
+  </center>
+  </div>
+  </div>
+</form>
+</body>
+</html>
